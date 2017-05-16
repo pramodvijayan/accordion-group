@@ -4,7 +4,10 @@ This is an addon for html accordions used in SNM Web Applications. This outlines
 
 ## Consumption
 Make sure the npm registry is set to ASH's private registry. 
-Execute ***ember install snm-accordion-group*** command from the consuming application root terminal. 
+Execute below commands from the consuming application root terminal. 
+
+  * ***ember install snm-accordion-group***
+  * ***ember generate snm-accordion-group***
 
 
 ## Usage in the templates
