@@ -57,7 +57,7 @@ Sets the size of the accordion through css classes. Defaults to `full`
   `min` (25% of the screen/container) 
 
 ## Dependency
-This addon has some dependency on Bootstrap 3.3.7 and Fontawesome 4.7.0. This addon inherits the styles used by the consuming application. 
+This addon has some dependency on Bootstrap 3.3.7 and Fontawesome 4.7.0 and will inherit the styles used by the consuming application. 
 
 ## Development Installation
 
