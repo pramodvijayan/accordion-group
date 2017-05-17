@@ -12,38 +12,42 @@ Execute below commands from the consuming application root terminal.
 
 ## Usage in the templates
 **Accordion Group:**
-```handlebars
+```
 
     {{#snm-accordion-group title="Member Info" autoExpand="true" as |accordionGroup|}}
         {{#accordionGroup.accordion  title="Elig Info" classNames="max"}}
-            Content for the first Accordion in the group!
+            <div class="panel-body">Content for the first Accordion in the group!</div>
         {{/accordionGroup.accordion}}
 
         {{#accordionGroup.accordion title="Ihis Info" classNames="max"}}
-            Content for the second Accordion in the group!
+            <div>Content for the second Accordion in the group!</div>
         {{/accordionGroup.accordion}}
 
         {{#accordionGroup.accordion title="Claim Info" }}
-            Content for the second Accordion in the group!
+            <div>Content for the third Accordion in the group!</div>
         {{/accordionGroup.accordion}}
     {{/snm-accordion-group}} 
 ```
 **Standalone Accordion:**
-```handlebars
+```
     {{#snm-accordion title="Member Summary" classNames="standard"}}
-        <div>Content for the snm-accordion</div>
+        <div class="panel-body">Content for the snm-accordion</div>
     {{/snm-accordion}}
 ```
 
 ## Options 
-### `title` 
+
+ ### title
    Title for the accordion.
-### `enableToggle` 
+   
+ ### enableToggle
    Flag for the toggle feature. Defaults to `true`
-### `autoExpand` 
+   
+ ### autoExpand 
    Flag for the accordion to be expanded when initially loaded. Defaults to `true`
-### `classNames` 
-Sets the size of the accordion through css classes. Defaults to `full`
+   
+ ### classNames 
+ Sets the size of the accordion through css classes. Defaults to `full`
 
 **Alternate options:**
   
@@ -60,7 +64,7 @@ Sets the size of the accordion through css classes. Defaults to `full`
   `min` (25% of the screen/container) 
 
 ## Dependency
-This addon has some dependency on Bootstrap 3.3.7 and Fontawesome 4.7.0 and will inherit the styles used by the consuming application. 
+This addon has some dependency on Bootstrap 3.3.7 and Fontawesome 4.7.0 and will inherit the bootstrap styles used by the consuming application. 
 
 ## Development Installation
 
